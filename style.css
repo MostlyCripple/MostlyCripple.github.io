@@ -1,0 +1,36 @@
+body{
+	background: url(header.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.text-justify {
+	font-family: 'Cinzel', serif;
+	color: rgb(255,255,255);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15%;
+    text-transform: uppercase;
+    font-size: 45px;
+
+	}
+
+.btn-danger {
+	background-color: #D46A6A;
+	font-weight: bold;
+	display: flex;
+	width: 170px;
+	height: 50px;
+	justify-content: center;
+    align-items: center;
+    margin-top:15%;
+    margin-left:45.5%;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-danger:hover {
+	background-color: red;
+}
+
